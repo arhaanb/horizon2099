@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+a {
+    color: rgb(255, 255, 167);
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+
+body {
+    background-image: url(img/bg-body.png);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+/* Navbar */
+
+nav {
+    position: fixed;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+nav a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.right {
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-size: 1.2em;
+    margin-right: 2em;
+}
+
+.right a {
+    margin-left: 1em;
+}
+
+#this {
+    font-family: audiowide;
+    font-size: 1.6em;
+    margin-left: 2em;
+}
+
+/* Header */
+
+.head {
+    height: 100vh;
+    background-image: url(img/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.title {
+    position: relative;
+    top: 42%;
+    margin-left: 39%;
+    font-family: audiowide;
+}
+
+#main {
+    font-size: 4em;
+    margin-bottom: 0em;
+}
+
+#sub {
+    font-size: 2em;
+}
+
+/* Main Body */
+
+.flex {
+    display: grid;
+    grid-gap: 80px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.main-body {
+    margin: 2em;
+}
+
+img {
+    margin: 0;
+}
+
+.card {
+    width: 100%;
+    background-color: rgb(0, 0, 0, 0.8);
+}
+
+.card img {
+    width: 100%;
+}
+
+.card h3 {
+    background-color: rgb(255, 255, 23);
+    padding: 0.5em;
+    font-size: 2em;
+}
+
+.card h5 {
+    font-size: 1.1em;
+    line-height: 2em;
+    padding-left: 1.3em;
+    padding-right: 1.3em;
+    color: #fff;
+    margin-bottom: 1.5em;
+    margin-top: 1.5em;
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
+    margin-top: 2em;
+    padding-top: 1em;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+}
+
+footer h5, footer a {
+    margin: 0;
+}
+
+.credits {
+    font-size: 1em;
+}
+
+.flexy {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 1.5em;
+}
+
+.profile a {
+    margin: 1em;
+    font-size: 1.3em;
+}
